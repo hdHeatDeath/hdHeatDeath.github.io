@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Hexo Theme Redefine">
+    
+    <meta name="author" content="The Redefine Team">
+    <!-- preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    
+    <!--- Seo Part-->
+    
+    <link rel="canonical" href="http://example.com/2023/10/08/kotlin/kotlin/"/>
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="1 days">
+    
+        <meta name="description" content="&amp;#x7B2C;&amp;#x4E00;&amp;#x4E2A;Kotlin&amp;#x811A;&amp;#x672C;&amp;#x2014;&amp;#x2014;&amp;#x56DB;&amp;#x5219;&amp;#x8FD0;&amp;#x7B97;&amp;#x521B;&amp;#x5EFA;&amp;#x4E00;&amp;#x4E2A;&amp;#x6587;&amp;#x672C;&amp;#x6587;&amp;#x4EF6;&amp;#xFF0C;&amp;#x547D;&amp;#x540D;&amp;#x4E3A;&amp;#xFF1A;&amp;#">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Kotlin">
+<meta property="og:url" content="http://example.com/2023/10/08/Kotlin/Kotlin/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="&amp;#x7B2C;&amp;#x4E00;&amp;#x4E2A;Kotlin&amp;#x811A;&amp;#x672C;&amp;#x2014;&amp;#x2014;&amp;#x56DB;&amp;#x5219;&amp;#x8FD0;&amp;#x7B97;&amp;#x521B;&amp;#x5EFA;&amp;#x4E00;&amp;#x4E2A;&amp;#x6587;&amp;#x672C;&amp;#x6587;&amp;#x4EF6;&amp;#xFF0C;&amp;#x547D;&amp;#x540D;&amp;#x4E3A;&amp;#xFF1A;&amp;#">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2023-10-08T01:13:02.703Z">
+<meta property="article:modified_time" content="2023-10-28T06:47:41.189Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+    
+    
+    <!--- Icon Part-->
+    <link rel="icon" type="image/png" href="/images/redefine-favicon.svg" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/redefine-favicon.svg">
+    <meta name="theme-color" content="#A31F34">
+    <link rel="shortcut icon" href="/images/redefine-favicon.svg">
+    <!--- Page Info-->
+    
+    <title>
+        
+            Kotlin -
+        
+        Theme Redefine
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    
+        
+<link rel="stylesheet" href="/css/build/styles.css">
+
+    
+
+    
+<link rel="stylesheet" href="/fonts/fonts.css">
+
+    
+<link rel="stylesheet" href="/fonts/Satoshi/satoshi.css">
+
+    
+<link rel="stylesheet" href="/fonts/Chillax/chillax.css">
+
+    <!--- Font Part-->
+    
+    
+    
+    
+
+    <!--- Inject Part-->
+    
+    <script id="hexo-configurations">
+    let Global = window.Global || {};
+    Global.hexo_config = {"hostname":"example.com","root":"/","language":"en"};
+    Global.theme_config = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"14px","image_alignment":"center","image_caption":false,"link_icon":true},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":true,"auto":false,"list":[]},"code_block":{"copy":true,"style":"mac","font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":3,"number":false,"expand":true,"init_open":true},"copyright":true,"lazyload":true,"recommendation":{"enable":false,"title":"推荐阅读","limit":3,"mobile_limit":2,"placeholder":"/images/wallhaven-wqery6-light.webp","skip_dirs":[]}},"colors":{"primary":"#A31F34","secondary":null},"global":{"fonts":{"chinese":{"enable":false,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null}},"content_max_width":"1000px","sidebar_width":"210px","hover":{"shadow":true,"scale":false},"scroll_progress":{"bar":false,"percentage":true},"website_counter":{"url":"https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js","enable":true,"site_pv":true,"site_uv":true,"post_pv":true},"single_page":true,"open_graph":true,"google_analytics":{"enable":false,"id":null}},"home_banner":{"enable":true,"style":"fixed","image":{"light":"/images/wallhaven-wqery6-light.webp","dark":"/images/wallhaven-wqery6-dark.webp"},"title":"Theme Redefine","subtitle":{"text":[],"hitokoto":{"enable":false,"api":"https://v1.hitokoto.cn"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":1500,"loop":true,"smart_backspace":true},"text_color":{"light":"#fff","dark":"#d1d1b6"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":false,"links":{"github":null,"instagram":null,"zhihu":null,"twitter":null,"email":null},"qrs":{"weixin":null}}},"plugins":{"feed":{"enable":false},"aplayer":{"enable":false,"type":"fixed","audios":[{"name":null,"artist":null,"url":null,"cover":null}]},"mermaid":{"enable":false,"version":"9.3.0"}},"version":"2.4.4","navbar":{"auto_hide":false,"color":{"left":"#f78736","right":"#367df7","transparency":35},"links":{"Home":{"path":"/","icon":"fa-regular fa-house"}},"search":{"enable":false,"preload":true}},"page_templates":{"friends_column":2,"tags_style":"blur"},"home":{"sidebar":{"enable":true,"position":"left","first_item":"menu","announcement":null,"links":null},"article_date_format":"auto","categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":3}},"footerStart":"2022/8/17 11:45:14"};
+    Global.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"};
+    Global.data_config = {"masonry":false};
+  </script>
+    
+    <!--- Fontawesome Part-->
+    
+<link rel="stylesheet" href="/fontawesome/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/brands.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/solid.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/regular.min.css">
+
+    
+    
+    
+    
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+
+    
+        <span class="pjax-progress-bar"></span>
+        <span class="swup-progress-icon">
+            <i class="fa-solid fa-circle-notch fa-spin"></i>
+        </span>
+    
+</div>
+
+
+<main class="page-container" id="swup">
+
+    
+
+    <div class="main-content-container">
+
+
+        <div class="main-content-header">
+            <header class="navbar-container">
+    
+    <div class="navbar-content">
+        <div class="left">
+            
+            <a class="logo-title" href="http://example.com/">
+                
+                Theme Redefine
+                
+            </a>
+        </div>
+
+        <div class="right">
+            <!-- PC -->
+            <div class="desktop">
+                <ul class="navbar-list">
+                    
+                        
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="" 
+                                    href="/"  >
+                                    
+                                        
+                                            <i class="fa-regular fa-house"></i>
+                                        
+                                        HOME
+                                    
+                                </a>
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                    
+                </ul>
+            </div>
+            <!-- Mobile -->
+            <div class="mobile">
+                
+                <div class="icon-item navbar-bar">
+                    <div class="navbar-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile drawer -->
+    <div class="navbar-drawer w-full absolute top-0 left-0 bg-background-color">
+        <ul class="drawer-navbar-list flex flex-col justify-start items-center">
+            
+                
+                    <li class="drawer-navbar-item text-base my-1.5 flex justify-center items-center">
+                        <a class="rounded-3xl py-1.5 px-5 hover:border hover:!text-primary active:!text-primary group " 
+                        href="/"  >
+                             
+                                
+                                    <i class="fa-regular fa-house"></i>
+                                
+                                HOME
+                            
+                        </a>
+                    </li>
+                    <!-- Submenu -->
+                    
+            
+
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="main-content-body">
+
+            
+
+            <div class="main-content">
+
+                
+                    <div class="post-page-container">
+    <div class="article-content-container">
+
+        <div class="article-title">
+            
+                <h1 class="article-title-regular">Kotlin</h1>
+            
+            </div>
+            
+                    
+        
+        
+            <div class="article-header">
+                <div class="avatar">
+                    <img src="/images/redefine-avatar.svg">
+                </div>
+                <div class="info">
+                    <div class="author">
+                        <span class="name">The Redefine Team</span>
+                        
+                            <span class="author-label">Lv2</span>
+                        
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2023-10-08 09:13:02</span>
+        <span class="mobile">2023-10-08 09:13:02</span>
+        <span class="hover-info">Created</span>
+    </span>
+    
+        <span class="article-date article-meta-item">
+            <i class="fa-regular fa-wrench"></i>&nbsp;
+            <span class="desktop">2023-10-28 14:47:41</span>
+            <span class="mobile">2023-10-28 14:47:41</span>
+            <span class="hover-info">Updated</span>
+        </span>
+    
+
+    
+    
+
+    
+    
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+                    </div>
+                </div>
+            </div>
+        
+
+        
+
+
+        <div class="article-content markdown-body">
+            <h1 id="&#x7B2C;&#x4E00;&#x4E2A;Kotlin&#x811A;&#x672C;&#x2014;&#x2014;&#x56DB;&#x5219;&#x8FD0;&#x7B97;"><a href="#&#x7B2C;&#x4E00;&#x4E2A;Kotlin&#x811A;&#x672C;&#x2014;&#x2014;&#x56DB;&#x5219;&#x8FD0;&#x7B97;" class="headerlink" title="&#x7B2C;&#x4E00;&#x4E2A;Kotlin&#x811A;&#x672C;&#x2014;&#x2014;&#x56DB;&#x5219;&#x8FD0;&#x7B97;"></a>&#x7B2C;&#x4E00;&#x4E2A;Kotlin&#x811A;&#x672C;&#x2014;&#x2014;&#x56DB;&#x5219;&#x8FD0;&#x7B97;</h1><p>&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x6587;&#x672C;&#x6587;&#x4EF6;&#xFF0C;&#x547D;&#x540D;&#x4E3A;&#xFF1A;&#x201C;scriptTest.kts&#x201D;</p>
+<div class="highlight-container" data-rel="Kotlin"><figure class="iseeu highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">println(<span class="number">1</span> + <span class="number">3</span>)	<span class="comment">// 4</span></span><br><span class="line">println(<span class="number">101</span> - <span class="number">99</span>)	<span class="comment">// 2</span></span><br></pre></td></tr></table></figure></div>
+
+<p>&#x4E0D;&#x4E0D;&#x5E38;&#x7528;</p>
+<h1 id="&#x7B2C;&#x4E00;&#x4E2A;Kotlin&#x5E94;&#x7528;&#x2014;&#x2014;&#x201C;Hello-Kotlin&#x201D;"><a href="#&#x7B2C;&#x4E00;&#x4E2A;Kotlin&#x5E94;&#x7528;&#x2014;&#x2014;&#x201C;Hello-Kotlin&#x201D;" class="headerlink" title="&#x7B2C;&#x4E00;&#x4E2A;Kotlin&#x5E94;&#x7528;&#x2014;&#x2014;&#x201C;Hello Kotlin&#x201D;"></a>&#x7B2C;&#x4E00;&#x4E2A;Kotlin&#x5E94;&#x7528;&#x2014;&#x2014;&#x201C;Hello Kotlin&#x201D;</h1><p>&#x6E90;&#x6587;&#x4EF6;&#x540E;&#x7F00;&#x540D;&#x4E3A;<code>.kt</code></p>
+<div class="highlight-container" data-rel="Kotlin"><figure class="iseeu highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">fun</span> <span class="title">main</span><span class="params">(aegs: <span class="type">Array</span>&lt;<span class="type">String</span>&gt;)</span></span>{</span><br><span class="line">    println(<span class="string">&quot;Hello, Kotlin&#xFF01;&quot;</span>)</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
+
+
+
+
+
+<h1 id="&#x53D8;&#x91CF;&#x548C;&#x5E38;&#x91CF;"><a href="#&#x53D8;&#x91CF;&#x548C;&#x5E38;&#x91CF;" class="headerlink" title="&#x53D8;&#x91CF;&#x548C;&#x5E38;&#x91CF;"></a>&#x53D8;&#x91CF;&#x548C;&#x5E38;&#x91CF;</h1><h2 id="&#x53D8;&#x91CF;"><a href="#&#x53D8;&#x91CF;" class="headerlink" title="&#x53D8;&#x91CF;"></a>&#x53D8;&#x91CF;</h2><h3 id="&#x521B;&#x5EFA;&#x53D8;&#x91CF;"><a href="#&#x521B;&#x5EFA;&#x53D8;&#x91CF;" class="headerlink" title="&#x521B;&#x5EFA;&#x53D8;&#x91CF;"></a>&#x521B;&#x5EFA;&#x53D8;&#x91CF;</h3><p>Kotlin&#x7528;&#x5173;&#x952E;&#x5B57;<code>var</code>&#xFF08;<em>variable&#x7684;&#x524D;&#x4E09;&#x4E2A;&#x5B57;&#x6BCD;</em>&#xFF09;&#x6765;&#x521B;&#x5EFA;&#x53D8;&#x91CF;</p>
+<p>&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x53D8;&#x91CF;&#x4E3B;&#x8981;&#x662F;&#x53EF;&#x4EE5;&#x5206;&#x4E3A;&#x4E24;&#x4E2A;&#x6B65;&#x9AA4;&#xFF1A;<strong>&#x5B9A;&#x4E49;&#x53D8;&#x91CF;</strong>&#x548C;<strong>&#x521D;&#x59CB;&#x5316;&#x53D8;&#x91CF;</strong></p>
+<div class="highlight-container" data-rel="Kotlin"><figure class="iseeu highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//var &#x53D8;&#x91CF;&#x540D;: &#x6570;&#x636E;&#x7C7B;&#x578B;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> height: <span class="built_in">Int</span>	<span class="comment">//&#x5B9A;&#x4E49;&#x53D8;&#x91CF;</span></span><br><span class="line">height = <span class="number">180</span>	<span class="comment">//&#x521D;&#x59CB;&#x5316;&#x53D8;&#x91CF;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//&#x5B9A;&#x4E49;&#x521D;&#x59CB;&#x5316;&#x4E00;&#x6B65;&#x5230;&#x4F4D;</span></span><br><span class="line"><span class="keyword">var</span> height&#xFF1A;<span class="built_in">Int</span> = <span class="number">180</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> height = <span class="number">180</span>	<span class="comment">//&#x5B9A;&#x4E49;&#x53D8;&#x91CF;&#x65F6;&#x53EF;&#x4EE5;&#x7701;&#x7565;&#x6570;&#x636E;&#x7C7B;&#x578B;Int&#xFF0C;&#x521B;&#x5EFA;&#x53D8;&#x91CF;&#x6700;&#x7B80;&#x6D01;&#x7684;&#x65B9;&#x5F0F;&#xFF0C;&#x4E5F;&#x662F;Kotlin&#x6700;&#x63A8;&#x8350;&#x7684;&#x65B9;&#x5F0F;</span></span><br><span class="line">height = <span class="number">181</span>	<span class="comment">//&#x521B;&#x5EFA;&#x53D8;&#x91CF;&#x540E;&#x53EF;&#x4EE5;&#x968F;&#x65F6;&#x4FEE;&#x6539;&#x53D8;&#x91CF;&#x7684;&#x503C;</span></span><br></pre></td></tr></table></figure></div>
+
+
+
+<h2 id="&#x5E38;&#x91CF;"><a href="#&#x5E38;&#x91CF;" class="headerlink" title="&#x5E38;&#x91CF;"></a>&#x5E38;&#x91CF;</h2><p>&#x5E38;&#x91CF;&#x548C;&#x53D8;&#x91CF;&#x4E00;&#x6837;&#xFF0C;&#x4E5F;&#x662F;&#x7528;&#x6765;&#x5B58;&#x653E;&#x6570;&#x636E;&#x7684;&#x3002;&#x4F46;&#x662F;&#x5E38;&#x91CF;&#x7684;&#x6570;&#x636E;&#x7C7B;&#x578B;&#x548C;&#x5B58;&#x653E;&#x7684;&#x6570;&#x636E;&#x90FD;<strong>&#x4E0D;&#x53EF;&#x4EE5;&#x88AB;&#x4FEE;&#x6539;</strong></p>
+<ul>
+<li>&#x5E38;&#x91CF;&#x53EA;&#x80FD;&#x88AB;&#x521D;&#x59CB;&#x5316;&#x4E00;&#x6B21;</li>
+<li>&#x5E38;&#x91CF;&#x5728;&#x4F7F;&#x7528;&#x524D;&#x5FC5;&#x987B;&#x521D;&#x59CB;&#x5316;</li>
+</ul>
+<h3 id="&#x521B;&#x5EFA;&#x5E38;&#x91CF;"><a href="#&#x521B;&#x5EFA;&#x5E38;&#x91CF;" class="headerlink" title="&#x521B;&#x5EFA;&#x5E38;&#x91CF;"></a>&#x521B;&#x5EFA;&#x5E38;&#x91CF;</h3><div class="highlight-container" data-rel="Kotlin"><figure class="iseeu highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">val</span> ticket: <span class="built_in">Int</span> = <span class="number">20</span>	<span class="comment">// &#x548C;&#x521B;&#x5EFA;&#x53D8;&#x91CF;&#x4E00;&#x6837;</span></span><br></pre></td></tr></table></figure></div>
+
+
+
+<h2 id="&#x5BF9;&#x6BD4;&#x53D8;&#x91CF;&#x548C;&#x5E38;&#x91CF;"><a href="#&#x5BF9;&#x6BD4;&#x53D8;&#x91CF;&#x548C;&#x5E38;&#x91CF;" class="headerlink" title="&#x5BF9;&#x6BD4;&#x53D8;&#x91CF;&#x548C;&#x5E38;&#x91CF;"></a>&#x5BF9;&#x6BD4;&#x53D8;&#x91CF;&#x548C;&#x5E38;&#x91CF;</h2><div class="highlight-container" data-rel="Kotlin"><figure class="iseeu highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// &#x53D8;&#x91CF;</span></span><br><span class="line"><span class="comment">// &#x5728;&#x5B9A;&#x4E49;&#x540E;&#x521D;&#x59CB;&#x5316;</span></span><br><span class="line"><span class="keyword">var</span> moneyInPocket: <span class="built_in">Int</span></span><br><span class="line">moneyInPocket = <span class="number">100</span></span><br><span class="line"><span class="comment">// &#x5728;&#x5B9A;&#x4E49;&#x65F6;&#x521D;&#x59CB;&#x5316;</span></span><br><span class="line"><span class="keyword">var</span> moneyInAlipay = <span class="number">20</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// &#x5E38;&#x91CF;</span></span><br><span class="line"><span class="comment">// &#x5728;&#x5B9A;&#x4E49;&#x65F6;&#x521D;&#x59CB;&#x5316;</span></span><br><span class="line"><span class="keyword">val</span> phone = <span class="number">12345678910</span></span><br><span class="line"><span class="comment">//&#x6309;&#x6761;&#x4EF6;&#x5EF6;&#x8FDF;&#x521D;&#x59CB;&#x5316;</span></span><br><span class="line"><span class="keyword">val</span> payChannel: String</span><br><span class="line"><span class="keyword">val</span> os = <span class="string">&quot;IOS&quot;</span></span><br><span class="line"><span class="keyword">if</span>(os == <span class="string">&quot;IOS&quot;</span>){</span><br><span class="line">    payChannel = <span class="string">&quot;App Store&quot;</span></span><br><span class="line">}<span class="keyword">else</span> <span class="keyword">if</span>(os == <span class="string">&quot;Android&quot;</span>){</span><br><span class="line">    payChannel = <span class="string">&quot;Google Play&quot;</span></span><br><span class="line">}<span class="keyword">else</span>{</span><br><span class="line">    payChannel = <span class="string">&quot;Offline&quot;</span></span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
+
+
+
+
+
+<h1 id="&#x6570;&#x636E;&#x7C7B;&#x578B;"><a href="#&#x6570;&#x636E;&#x7C7B;&#x578B;" class="headerlink" title="&#x6570;&#x636E;&#x7C7B;&#x578B;"></a>&#x6570;&#x636E;&#x7C7B;&#x578B;</h1><h2 id="&#x201C;&#x6570;&#x503C;&#x201D;&#x7C7B;&#x578B;&#x2014;&#x2014;&#x8868;&#x793A;&#x6570;&#x5B57;"><a href="#&#x201C;&#x6570;&#x503C;&#x201D;&#x7C7B;&#x578B;&#x2014;&#x2014;&#x8868;&#x793A;&#x6570;&#x5B57;" class="headerlink" title="&#x201C;&#x6570;&#x503C;&#x201D;&#x7C7B;&#x578B;&#x2014;&#x2014;&#x8868;&#x793A;&#x6570;&#x5B57;"></a>&#x201C;&#x6570;&#x503C;&#x201D;&#x7C7B;&#x578B;&#x2014;&#x2014;&#x8868;&#x793A;&#x6570;&#x5B57;</h2><p>&#x5927;&#x90E8;&#x5206;&#x8DDF;Java&#x7C7B;&#x4F3C;&#xFF0C;&#x7701;&#x7565;</p>
+<h2 id="&#x53EF;&#x7A7A;&#x7C7B;&#x578B;"><a href="#&#x53EF;&#x7A7A;&#x7C7B;&#x578B;" class="headerlink" title="&#x53EF;&#x7A7A;&#x7C7B;&#x578B;"></a>&#x53EF;&#x7A7A;&#x7C7B;&#x578B;</h2><p><strong>&#x7A7A;&#x503C;</strong>&#x2014;&#x2014;&#x6CA1;&#x6709;&#x5B58;&#x50A8;&#x7A7A;&#x95F4;&#xFF0C;&#x7A7A;&#x5F15;&#x7528;</p>
+<p><strong>&#x521B;&#x5EFA;&#x65B9;&#x6CD5;&#xFF1A;</strong></p>
+<p><code>var &#x53D8;&#x91CF;&#x540D;: &#x53D8;&#x91CF;&#x7C7B;&#x578B;&#xFF1F;</code></p>
+<p>&#x5728;&#x539F;&#x6709;&#x7684;&#x6570;&#x636E;&#x7C7B;&#x578B;&#x540E;&#x9762;&#x52A0;&#x4E0A;&#x201D;&#xFF1F;&#x201C;</p>
+<div class="highlight-container" data-rel="Kotlin"><figure class="iseeu highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> nullableString: String? = <span class="string">&quot;&#x8BE5;&#x53D8;&#x91CF;&#x53EF;&#x4EE5;&#x4E3A;&#x7A7A;&quot;</span></span><br><span class="line"><span class="keyword">var</span> anotherNullableString: String = <span class="literal">null</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> notNullString: String = <span class="string">&quot;&#x8BE5;&#x53D8;&#x91CF;&#x4E0D;&#x53EF;&#x4EE5;&#x4E3A;&#x7A7A;&quot;</span></span><br></pre></td></tr></table></figure></div>
+
+<p>&#x53EF;&#x7A7A;&#x7C7B;&#x578B;&#x53EA;&#x80FD;&#x8D4B;&#x503C;&#x7ED9;&#x53E6;&#x4E00;&#x4E2A;&#x53EF;&#x7A7A;&#x7C7B;&#x578B;</p>
+<h2 id="&#x4F7F;&#x7528;&#x5B89;&#x5168;&#x64CD;&#x4F5C;&#x7B26;&#x907F;&#x514D;&#x7A7A;&#x6307;&#x9488;"><a href="#&#x4F7F;&#x7528;&#x5B89;&#x5168;&#x64CD;&#x4F5C;&#x7B26;&#x907F;&#x514D;&#x7A7A;&#x6307;&#x9488;" class="headerlink" title="&#x4F7F;&#x7528;&#x5B89;&#x5168;&#x64CD;&#x4F5C;&#x7B26;&#x907F;&#x514D;&#x7A7A;&#x6307;&#x9488;"></a>&#x4F7F;&#x7528;&#x5B89;&#x5168;&#x64CD;&#x4F5C;&#x7B26;&#x907F;&#x514D;&#x7A7A;&#x6307;&#x9488;</h2><p><strong>&#x8BED;&#x6CD5;&#xFF1A;</strong></p>
+<div class="highlight-container" data-rel="Kotlin"><figure class="iseeu highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&#x5BF9;&#x8C61;?.&#x65B9;&#x6CD5;&#x540D;()</span><br><span class="line">&#x5BF9;&#x8C61;?.&#x5C5E;&#x6027;&#x540D;</span><br></pre></td></tr></table></figure></div>
+
+
+
+<h2 id="&#x5185;&#x7F6E;&#x7C7B;&#x578B;&#x7ED3;&#x6784;"><a href="#&#x5185;&#x7F6E;&#x7C7B;&#x578B;&#x7ED3;&#x6784;" class="headerlink" title="&#x5185;&#x7F6E;&#x7C7B;&#x578B;&#x7ED3;&#x6784;"></a>&#x5185;&#x7F6E;&#x7C7B;&#x578B;&#x7ED3;&#x6784;</h2><ul>
+<li><p><strong>Any&#x7C7B;&#x578B;</strong>&#x2014;&#x2014;&#x6240;&#x6709;&#x7C7B;&#x578B;&#x7684;&#x7236;&#x7C7B;</p>
+  <div class="highlight-container" data-rel="Kotlin"><figure class="iseeu highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">open</span> <span class="keyword">class</span> <span class="title class_">Any</span> {</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">open</span> <span class="keyword">operator</span> <span class="function"><span class="keyword">fun</span> <span class="title">equals</span><span class="params">(other: <span class="type">Any</span>?)</span></span>: <span class="built_in">Boolean</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">open</span> <span class="function"><span class="keyword">fun</span> <span class="title">hashCode</span><span class="params">()</span></span>: <span class="built_in">Int</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">open</span> <span class="function"><span class="keyword">fun</span> <span class="title">toString</span><span class="params">()</span></span>: String</span><br><span class="line">}</span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
+
+<p>  &#x7C7B;&#x4F3C;&#x4E8E;Java&#x7684;Object&#x7C7B;&#xFF0C;&#x53EA;&#x662F;Any&#x6BD4;Object&#x5C11;&#x4E86;<code>wait()</code>, <code>clone()</code>&#x7B49;&#x5185;&#x7F6E;&#x65B9;&#x6CD5;</p>
+</li>
+<li><p><strong>Unit&#x7C7B;&#x578B;</strong>&#x2014;&#x2014;&#x4EC0;&#x4E48;&#x90FD;&#x4E0D;&#x8FD4;&#x56DE;</p>
+  <div class="highlight-container" data-rel="Kotlin"><figure class="iseeu highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">object</span> <span class="built_in">Unit</span> {</span><br><span class="line">    <span class="keyword">override</span> <span class="function"><span class="keyword">fun</span> <span class="title">toString</span><span class="params">()</span></span> = <span class="string">&quot;kotlin.Unit&quot;</span></span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
+
+<p>  &#x4E3B;&#x4F5C;&#x4E3A;&#x65B9;&#x6CD5;&#x7684;&#x8FD4;&#x56DE;&#x503C;&#x7C7B;&#x578B;&#xFF0C;&#x7C7B;&#x4F3C;&#x4E8E;Java&#x7684;<code>void</code></p>
+</li>
+<li><p><strong>Nothing&#x7C7B;&#x578B;</strong>&#x2014;&#x2014;&#x4EC0;&#x4E48;&#x90FD;&#x6CA1;&#x6709;</p>
+  <div class="highlight-container" data-rel="Kotlin"><figure class="iseeu highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Nothing</span> <span class="keyword">private</span> <span class="keyword">constructor</span>()</span><br></pre></td></tr></table></figure></div>
+
+<p>  <code>Nothing</code>&#x7C7B;&#x578B;&#x8DDF;<code>Any</code>&#x7C7B;&#x578B;&#x6B63;&#x597D;&#x76F8;&#x53CD;&#xFF0C;<code>Nothing</code>&#x88AB;&#x770B;&#x4F5C;&#x6240;&#x6709;&#x7C7B;&#x7684;&#x5B50;&#x7C7B;</p>
+</li>
+</ul>
+<h2 id="&#x7C7B;&#x578B;&#x8F6C;&#x6362;&#x4E0E;&#x7C7B;&#x578B;&#x5224;&#x65AD;"><a href="#&#x7C7B;&#x578B;&#x8F6C;&#x6362;&#x4E0E;&#x7C7B;&#x578B;&#x5224;&#x65AD;" class="headerlink" title="&#x7C7B;&#x578B;&#x8F6C;&#x6362;&#x4E0E;&#x7C7B;&#x578B;&#x5224;&#x65AD;"></a>&#x7C7B;&#x578B;&#x8F6C;&#x6362;&#x4E0E;&#x7C7B;&#x578B;&#x5224;&#x65AD;</h2><p><strong>&#x6570;&#x503C;&#x7C7B;&#x578B;&#x8F6C;&#x6362;</strong></p>
+<ul>
+<li>toByte()</li>
+<li>toString()</li>
+<li>toInt()</li>
+<li>toLong()</li>
+<li>toFLoat()</li>
+<li>toDouble()</li>
+<li>toChar()</li>
+</ul>
+<p><strong>&#x81EA;&#x52A8;&#x7C7B;&#x578B;&#x8F6C;&#x6362;</strong></p>
+<p>&#x4E0E;Java&#x7C7B;&#x4F3C;</p>
+<p><strong>&#x5F3A;&#x5236;&#x7C7B;&#x578B;&#x8F6C;&#x6362;</strong></p>
+<p>&#x4F7F;&#x7528;<code>as</code>&#x5173;&#x952E;&#x5B57;</p>
+<div class="highlight-container" data-rel="Kotlin"><figure class="iseeu highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// &#x5C06;&#x53D8;&#x91CF;foo&#x5F3A;&#x5236;&#x7C7B;&#x578B;&#x8F6C;&#x6362;&#x4E3A;String&#x7C7B;&#x578B;&#x540E;&#x8D4B;&#x503C;&#x7ED9;fooString</span></span><br><span class="line"><span class="keyword">val</span> fooString: String = foo <span class="keyword">as</span> String</span><br></pre></td></tr></table></figure></div>
+
+
+
+<p><strong>&#x7C7B;&#x578B;&#x63D0;&#x5347;</strong></p>
+<p>&#x5982;&#x679C;&#x4E24;&#x4E2A;&#x6570;&#x503C;&#x7C7B;&#x578B;&#x8FDB;&#x884C;&#x8FD0;&#x7B97;&#xFF0C;&#x5219;&#x7ED3;&#x679C;&#x503C;&#x7684;&#x7C7B;&#x578B;&#x4E3A;&#x8FD9;&#x4E24;&#x4E2A;&#x6570;&#x503C;&#x4E2D;&#x8303;&#x56F4;&#x8F83;&#x5927;&#x7684;&#x7C7B;&#x578B;</p>
+<div class="highlight-container" data-rel="Kotlin"><figure class="iseeu highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">val</span> aInt: <span class="built_in">Int</span> = <span class="number">100</span></span><br><span class="line"><span class="keyword">val</span> aDouble <span class="built_in">Double</span> = <span class="number">20.0</span></span><br><span class="line"><span class="keyword">val</span> result: <span class="built_in">Double</span> = aInt - aDOuble	<span class="comment">//result&#x7C7B;&#x578B;&#x662F;Double</span></span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li>&#x5982;&#x679C;&#x5B57;&#x8282;&#x7C7B;&#x578B;&#x4E0E;&#x6570;&#x503C;&#x7C7B;&#x578B;&#x8FDB;&#x884C;&#x8FD0;&#x7B97;&#xFF0C;&#x5219;&#x7ED3;&#x679C;&#x503C;&#x7684;&#x7C7B;&#x578B;&#x4E0E;&#x8BE5;&#x6570;&#x503C;&#x7C7B;&#x578B;&#x4FDD;&#x6301;&#x4E00;&#x81F4;&#xFF08;&#x5373;&#x5B57;&#x8282;&#x7C7B;&#x578B;&#x4E0E;Int&#x7C7B;&#x578B;&#x76F8;&#x52A0;&#x7ED3;&#x679C;&#x4E3A;Int&#x7C7B;&#x578B;&#xFF0C;&#x5B57;&#x8282;&#x7C7B;&#x578B;&#x4E0E;Long&#x7C7B;&#x578B;&#x76F8;&#x52A0;&#x7684;&#x7ED3;&#x679C;&#x4E3A;Long&#x7C7B;&#x578B;&#xFF09;</li>
+<li>&#x5982;&#x679C;&#x4E24;&#x4E2A;&#x5B57;&#x8282;&#x7C7B;&#x578B;&#x8FDB;&#x884C;&#x8FD0;&#x7B97;&#xFF0C;&#x5219;&#x7ED3;&#x679C;&#x503C;&#x7684;&#x7C7B;&#x578B;&#x63D0;&#x5347;&#x4E3A;Int&#x7C7B;&#x578B;</li>
+</ul>
+<h3 id="&#x5B89;&#x5168;&#x7C7B;&#x578B;&#x8F6C;&#x6362;"><a href="#&#x5B89;&#x5168;&#x7C7B;&#x578B;&#x8F6C;&#x6362;" class="headerlink" title="&#x5B89;&#x5168;&#x7C7B;&#x578B;&#x8F6C;&#x6362;"></a>&#x5B89;&#x5168;&#x7C7B;&#x578B;&#x8F6C;&#x6362;</h3><p>&#x5B89;&#x5168;&#x7C7B;&#x578B;&#x8F6C;&#x6362;&#x9700;&#x8981;&#x5728;&#x5173;&#x952E;&#x5B57;<code>as</code>&#x540E;&#x52A0;&#x4E0A;<code>?</code>&#xFF0C;&#x82E5;&#x8F6C;&#x6362;&#x5931;&#x8D25;&#x5219;&#x8FD4;&#x56DE;&#x7A7A;&#x503C;</p>
+<div class="highlight-container" data-rel="Kotlin"><figure class="iseeu highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> number: <span class="built_in">Int</span>? = <span class="string">&quot;foo&quot;</span> <span class="keyword">as</span> <span class="built_in">Int</span></span><br><span class="line">println(number)	<span class="comment">// null</span></span><br></pre></td></tr></table></figure></div>
+
+<p>&#x7531;&#x4E8E;<code>foo</code>&#x65E0;&#x6CD5;&#x8F6C;&#x6362;&#x4E3A;Int&#x7C7B;&#x578B;&#xFF0C;&#x6240;&#x4EE5;&#x53D8;&#x91CF;<code>number</code>&#x4E3A;&#x7A7A;</p>
+<h3 id="&#x7C7B;&#x578B;&#x5224;&#x65AD;&#x4E0E;&#x667A;&#x80FD;&#x8F6C;&#x6362;"><a href="#&#x7C7B;&#x578B;&#x5224;&#x65AD;&#x4E0E;&#x667A;&#x80FD;&#x8F6C;&#x6362;" class="headerlink" title="&#x7C7B;&#x578B;&#x5224;&#x65AD;&#x4E0E;&#x667A;&#x80FD;&#x8F6C;&#x6362;"></a>&#x7C7B;&#x578B;&#x5224;&#x65AD;&#x4E0E;&#x667A;&#x80FD;&#x8F6C;&#x6362;</h3><p><strong>&#x7C7B;&#x578B;&#x5224;&#x65AD;</strong></p>
+<p>&#x4F7F;&#x7528;<code>is</code>&#x64CD;&#x4F5C;&#x7B26;&#x6765;&#x5224;&#x65AD;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x662F;&#x5426;&#x662F;&#x6307;&#x5B9A;&#x7684;&#x6570;&#x636E;&#x7C7B;&#x578B;</p>
+<div class="highlight-container" data-rel="Kotlin"><figure class="iseeu highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">fun</span> <span class="title">bar</span><span class="params">(foo: <span class="type">Any</span>)</span></span>{</span><br><span class="line">    <span class="keyword">if</span>(foo <span class="keyword">is</span> String){</span><br><span class="line">        println(foo)</span><br><span class="line">    }</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
+
+
+
+<p><strong>&#x667A;&#x80FD;&#x8F6C;&#x6362;</strong></p>
+<p>&#x5982;&#x679C;&#x7F16;&#x8BD1;&#x5668;&#x80FD;&#x4ECE; &#x4E0A;&#x4E0B;&#x6587;&#x63A8;&#x65AD;&#x51FA;&#x5BF9;&#x8C61;&#x7684;&#x771F;&#x5B9E;&#x7C7B;&#x578B;&#xFF0C;&#x5219;&#x5728;&#x8BE5;&#x4E0A;&#x4E0B;&#x6587;&#x4E2D;&#x5BF9;&#x8C61;&#x4F1A;&#x88AB;&#x81EA;&#x52A8;&#x8F6C;&#x6362;&#x4E3A;&#x771F;&#x5B9E;&#x7C7B;&#x578B;&#xFF0C;&#x8FD9;&#x4E2A;&#x7279;&#x6027;&#x88AB;&#x79F0;&#x4E3A;&#x667A;&#x80FD;&#x8F6C;&#x6362;</p>
+<div class="highlight-container" data-rel="Kotlin"><figure class="iseeu highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">fun</span> <span class="title">bar</span> <span class="params">(foo: <span class="type">Any</span>)</span></span>{</span><br><span class="line">    <span class="keyword">if</span>(foo <span class="keyword">is</span> String){</span><br><span class="line">        println(foo.toUpperCase())</span><br><span class="line">    }</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
+
+<p>&#x7531;&#x4E8E;<code>if</code>&#x7684;&#x6761;&#x4EF6;&#x9650;&#x5236;&#x4E86;&#x53EA;&#x6709;String&#x7C7B;&#x578B;&#x624D;&#x80FD;&#x8FD0;&#x884C;&#x540E;&#x9762;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x6240;&#x4EE5;<code>foo</code>&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x8C03;&#x7528;<code>toUpperCase()</code>&#x65B9;&#x6CD5;</p>
+<h3 id="&#x7C7B;&#x578B;&#x522B;&#x540D;"><a href="#&#x7C7B;&#x578B;&#x522B;&#x540D;" class="headerlink" title="&#x7C7B;&#x578B;&#x522B;&#x540D;"></a>&#x7C7B;&#x578B;&#x522B;&#x540D;</h3><p>&#x7ED9;&#x4EFB;&#x610F;&#x7C7B;&#x578B;&#x8D77;&#x522B;&#x540D;</p>
+<p><code>typealias &#x522B;&#x540D; = &#x539F;&#x7C7B;&#x578B;&#x540D;</code></p>
+<div class="highlight-container" data-rel="Kotlin"><figure class="iseeu highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">typealias</span> xyz = <span class="built_in">Int</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// &#x4F7F;&#x7528;&#x539F;&#x7C7B;&#x578B;&#x540D;</span></span><br><span class="line"><span class="keyword">val</span> a: <span class="built_in">Int</span> = <span class="number">1</span></span><br><span class="line"><span class="keyword">val</span> b: <span class="built_in">Int</span> = <span class="number">2</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// &#x4F7F;&#x7528;&#x7C7B;&#x578B;&#x522B;&#x540D;</span></span><br><span class="line"><span class="keyword">val</span> aRet: xyz = <span class="number">1</span> + <span class="number">2</span></span><br></pre></td></tr></table></figure></div>
+
+
+
+
+
+<h1 id="&#x64CD;&#x4F5C;&#x7B26;"><a href="#&#x64CD;&#x4F5C;&#x7B26;" class="headerlink" title="&#x64CD;&#x4F5C;&#x7B26;"></a>&#x64CD;&#x4F5C;&#x7B26;</h1><p>&#x5927;&#x90E8;&#x5206;&#x540C;Java</p>
+<h2 id="&#x732B;&#x738B;&#x64CD;&#x4F5C;&#x7B26;&#xFF08;Elvis&#xFF09;"><a href="#&#x732B;&#x738B;&#x64CD;&#x4F5C;&#x7B26;&#xFF08;Elvis&#xFF09;" class="headerlink" title="&#x732B;&#x738B;&#x64CD;&#x4F5C;&#x7B26;&#xFF08;Elvis&#xFF09;"></a>&#x732B;&#x738B;&#x64CD;&#x4F5C;&#x7B26;&#xFF08;Elvis&#xFF09;</h2><p>&#x7528;&#x4E8E;&#x5728;&#x7B2C;&#x4E00;&#x4E2A;&#x64CD;&#x4F5C;&#x6570;&#x7684;&#x503C;&#x7684;&#x7A7A;&#x65F6;&#xFF0C;&#x8FD4;&#x56DE;&#x6307;&#x5B9A;&#x7684;&#x9ED8;&#x8BA4;&#x503C;&#x3002;&#x7531;&#x4E8E;&#x7B26;&#x53F7;<code>?:</code>&#x770B;&#x8D77;&#x6765;&#x50CF;&#x732B;&#x738B;&#x7684;&#x53D1;&#x578B;&#x800C;&#x5F97;&#x540D;</p>
+<div class="highlight-container" data-rel="Kotlin"><figure class="iseeu highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#x64CD;&#x4F5C;&#x6570;?:&#x9ED8;&#x8BA4;&#x503C;</span><br></pre></td></tr></table></figure></div>
+
+<div class="highlight-container" data-rel="Kotlin"><figure class="iseeu highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> doorStatus = <span class="literal">null</span></span><br><span class="line"><span class="keyword">var</span> doorStatusElvis = doorStatus ?: <span class="string">&quot;Closed&quot;</span></span><br><span class="line">println(doorStatusElvis)    <span class="comment">// Closed</span></span><br></pre></td></tr></table></figure></div>
+
+
+
+<h2 id="&#x76F8;&#x7B49;&#x6027;"><a href="#&#x76F8;&#x7B49;&#x6027;" class="headerlink" title="&#x76F8;&#x7B49;&#x6027;"></a>&#x76F8;&#x7B49;&#x6027;</h2><p><code>==</code>&#x3001;<code>!=</code> &#x540C;Java</p>
+<p><code>===</code> &#x8868;&#x793A;&#x4E24;&#x4E2A;&#x64CD;&#x4F5C;&#x6570;&#x65F6;&#x5B8C;&#x5168;&#x4E00;&#x6837;&#x7684;&#xFF0C;&#x53EA;&#x6709;&#x5F53;&#x4E24;&#x4E2A;&#x64CD;&#x4F5C;&#x6570;&#x6307;&#x5411;&#x540C;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x65F6;&#xFF0C;&#x624D;&#x4F1A;&#x8FD4;&#x56DE;<code>true</code></p>
+<p><code>!==</code> &#x76F8;&#x53CD;</p>
+<div class="highlight-container" data-rel="Kotlin"><figure class="iseeu highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> startDate = Date(<span class="number">100</span>)</span><br><span class="line"><span class="keyword">var</span> endDate = Date(<span class="number">100</span>)</span><br><span class="line"><span class="keyword">var</span> anotherStartDate = startDate</span><br><span class="line">println(<span class="string">&quot;startDate === anotherStartDate: <span class="subst">${startDate === anotherStartDate}</span>&quot;</span>)</span><br><span class="line">println(<span class="string">&quot;endDate === anotherStartDate: <span class="subst">${endDate === anotherStartDate}</span>&quot;</span>)</span><br><span class="line"><span class="comment">// startDate === anotherStartDate: true</span></span><br><span class="line"><span class="comment">// endDate === anotherStartDate: false</span></span><br></pre></td></tr></table></figure></div>
+
+
+
+<h2 id="in&#x548C;-in&#x64CD;&#x4F5C;&#x7B26;"><a href="#in&#x548C;-in&#x64CD;&#x4F5C;&#x7B26;" class="headerlink" title="in&#x548C;!in&#x64CD;&#x4F5C;&#x7B26;"></a>in&#x548C;!in&#x64CD;&#x4F5C;&#x7B26;</h2><p>in&#x548C;!in&#x5C5E;&#x4E8E;&#x903B;&#x8F91;&#x64CD;&#x4F5C;&#x7B26;&#xFF0C;&#x4E3B;&#x8981;&#x5224;&#x65AD;&#x7B2C;1&#x4E2A;&#x64CD;&#x4F5C;&#x6570;&#x662F;&#x5426;&#x5728;&#x7B2C;2&#x4E2A;&#x64CD;&#x4F5C;&#x6570;&#x7684;&#x8303;&#x56F4;&#x5185;</p>
+<p><code>in</code>&#x76F8;&#x5F53;&#x4E8E;<code>contains()</code></p>
+<p><code>!in</code>&#x76F8;&#x5F53;&#x4E8E;<code>minus()</code></p>
+<div class="highlight-container" data-rel="Kotlin"><figure class="iseeu highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> t = <span class="string">&quot;i have a pen&quot;</span></span><br><span class="line">println(<span class="string">&quot;pen&quot;</span> <span class="keyword">in</span> t) <span class="comment">// true</span></span><br></pre></td></tr></table></figure></div>
+
+
+
+<h2 id="&#x7D22;&#x5F15;&#x64CD;&#x4F5C;&#x7B26;"><a href="#&#x7D22;&#x5F15;&#x64CD;&#x4F5C;&#x7B26;" class="headerlink" title="&#x7D22;&#x5F15;&#x64CD;&#x4F5C;&#x7B26;"></a>&#x7D22;&#x5F15;&#x64CD;&#x4F5C;&#x7B26;</h2><p><code>[]</code>&#x83B7;&#x53D6;&#x7B2C;1&#x4E2A;&#x64CD;&#x4F5C;&#x6570;&#x7684;&#x90E8;&#x5206;&#x6570;&#x636E;</p>
+<div class="highlight-container" data-rel="Kotlin"><figure class="iseeu highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> t = <span class="string">&quot;i have a pen&quot;</span></span><br><span class="line">println(t[<span class="number">0</span>]) <span class="comment">// i</span></span><br><span class="line">println(t[<span class="number">5</span>]) <span class="comment">// e</span></span><br></pre></td></tr></table></figure></div>
+
+
+
+<h2 id="&#x64CD;&#x4F5C;&#x7B26;&#x91CD;&#x5199;"><a href="#&#x64CD;&#x4F5C;&#x7B26;&#x91CD;&#x5199;" class="headerlink" title="&#x64CD;&#x4F5C;&#x7B26;&#x91CD;&#x5199;"></a>&#x64CD;&#x4F5C;&#x7B26;&#x91CD;&#x5199;</h2><p>&#x4F7F;&#x7528;<code>operator</code>&#x4FEE;&#x9970;&#x7684;&#x65B9;&#x6CD5;</p>
+<div class="highlight-container" data-rel="Kotlin"><figure class="iseeu highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Blue</span> {</span><br><span class="line">    <span class="comment">// &#x91CD;&#x5199;&#x7B26;&#x53F7; +</span></span><br><span class="line">    <span class="keyword">operator</span> <span class="function"><span class="keyword">fun</span> <span class="title">plus</span><span class="params">(y: <span class="type">Yellow</span>)</span></span>: Green{</span><br><span class="line">        <span class="keyword">return</span> Green()</span><br><span class="line">    }</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Yellow</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Green</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">fun</span> <span class="title">main</span><span class="params">(aegs: <span class="type">Array</span>&lt;<span class="type">String</span>&gt;)</span></span>{</span><br><span class="line">    <span class="keyword">var</span> blue: Blue = Blue()</span><br><span class="line">    <span class="keyword">var</span> yellow: Yellow = Yellow()</span><br><span class="line">    <span class="comment">// &#x8C03;&#x7528;Blue&#x7C7B;&#x4E2D;&#x5B9A;&#x4E49;&#x7684;plus()&#x65B9;&#x6CD5;</span></span><br><span class="line">    <span class="keyword">var</span> green: Green = blue + yellow</span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
+
+        </div>
+
+        
+            <div class="post-copyright-info">
+                <div class="article-copyright-info-container">
+    <ul>
+        <li><strong>Title:</strong> Kotlin</li>
+        <li><strong>Author:</strong> The Redefine Team</li>
+        <li><strong>Created at
+                :</strong> 2023-10-08 09:13:02</li>
+        
+            <li>
+                <strong>Updated at
+                    :</strong> 2023-10-28 14:47:41
+            </li>
+        
+        <li>
+            <strong>Link:</strong> https://redefine.ohevan.com/2023/10/08/Kotlin/Kotlin/
+        </li>
+        <li>
+            <strong>
+                License:
+            </strong>
+            
+            This work is licensed under <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0</a>.
+            
+
+        </li>
+    </ul>
+</div>
+
+            </div>
+        
+
+        
+
+        
+
+        
+            <div class="article-nav">
+                
+                    <div class="article-prev">
+                        <a class="prev"
+                        rel="prev"
+                        href="/2023/10/29/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"
+                        >
+                            <span class="left arrow-icon flex justify-center items-center">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </span>
+                            <span class="title flex justify-center items-center">
+                                <span class="post-nav-title-item">操作系统</span>
+                                <span class="post-nav-item">Prev posts</span>
+                            </span>
+                        </a>
+                    </div>
+                
+                
+                    <div class="article-next">
+                        <a class="next"
+                        rel="next"
+                        href="/2023/09/25/Git/Git/"
+                        >
+                            <span class="title flex justify-center items-center">
+                                <span class="post-nav-title-item">Git</span>
+                                <span class="post-nav-item">Next posts</span>
+                            </span>
+                            <span class="right arrow-icon flex justify-center items-center">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                
+            </div>
+        
+
+
+        
+            <div class="comment-container">
+                <div class="comments-container pjax">
+    <div id="comment-anchor"></div>
+    <div class="comment-area-title">
+        <i class="fa-solid fa-comments"></i>&nbsp;Comments
+    </div>
+    
+
+        
+            
+ 
+    <div id="waline"></div>
+    <script type="module"  data-swup-reload-script>
+        import { init } from 'https://evan.beee.top/js/waline.mjs';
+
+        function loadWaline() {
+            init({
+                el: '#waline',
+                serverURL: 'https://example.example.com',
+                lang: 'zh-CN',
+                dark: 'body[class~="dark-mode"]',
+                requiredMeta: ['nick','mail'], // cannot customize by theme config, change it yourself
+            });
+        }
+
+        if ('true') {
+            const loadWalineTimeout = setTimeout(() => {
+                loadWaline();
+                clearTimeout(loadWalineTimeout);
+            }, 1000);
+        } else {
+            window.addEventListener('DOMContentLoaded', loadWaline);
+        }
+        
+    </script>
+
+
+
+        
+    
+</div>
+
+            </div>
+        
+    </div>
+
+    
+        <div class="toc-content-container">
+            <div class="post-toc-wrap">
+    <div class="post-toc">
+        <div class="toc-title">On this page</div>
+        <div class="page-title">Kotlin</div>
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E4%B8%AAKotlin%E8%84%9A%E6%9C%AC%E2%80%94%E2%80%94%E5%9B%9B%E5%88%99%E8%BF%90%E7%AE%97"><span class="nav-text">第一个Kotlin脚本——四则运算</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E4%B8%AAKotlin%E5%BA%94%E7%94%A8%E2%80%94%E2%80%94%E2%80%9CHello-Kotlin%E2%80%9D"><span class="nav-text">第一个Kotlin应用——“Hello Kotlin”</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8F%98%E9%87%8F%E5%92%8C%E5%B8%B8%E9%87%8F"><span class="nav-text">变量和常量</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%98%E9%87%8F"><span class="nav-text">变量</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%9B%E5%BB%BA%E5%8F%98%E9%87%8F"><span class="nav-text">创建变量</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B8%B8%E9%87%8F"><span class="nav-text">常量</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%9B%E5%BB%BA%E5%B8%B8%E9%87%8F"><span class="nav-text">创建常量</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AF%B9%E6%AF%94%E5%8F%98%E9%87%8F%E5%92%8C%E5%B8%B8%E9%87%8F"><span class="nav-text">对比变量和常量</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B"><span class="nav-text">数据类型</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E2%80%9C%E6%95%B0%E5%80%BC%E2%80%9D%E7%B1%BB%E5%9E%8B%E2%80%94%E2%80%94%E8%A1%A8%E7%A4%BA%E6%95%B0%E5%AD%97"><span class="nav-text">“数值”类型——表示数字</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%AF%E7%A9%BA%E7%B1%BB%E5%9E%8B"><span class="nav-text">可空类型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8%E5%AE%89%E5%85%A8%E6%93%8D%E4%BD%9C%E7%AC%A6%E9%81%BF%E5%85%8D%E7%A9%BA%E6%8C%87%E9%92%88"><span class="nav-text">使用安全操作符避免空指针</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%86%85%E7%BD%AE%E7%B1%BB%E5%9E%8B%E7%BB%93%E6%9E%84"><span class="nav-text">内置类型结构</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2%E4%B8%8E%E7%B1%BB%E5%9E%8B%E5%88%A4%E6%96%AD"><span class="nav-text">类型转换与类型判断</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E5%85%A8%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2"><span class="nav-text">安全类型转换</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%B1%BB%E5%9E%8B%E5%88%A4%E6%96%AD%E4%B8%8E%E6%99%BA%E8%83%BD%E8%BD%AC%E6%8D%A2"><span class="nav-text">类型判断与智能转换</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%B1%BB%E5%9E%8B%E5%88%AB%E5%90%8D"><span class="nav-text">类型别名</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%93%8D%E4%BD%9C%E7%AC%A6"><span class="nav-text">操作符</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%8C%AB%E7%8E%8B%E6%93%8D%E4%BD%9C%E7%AC%A6%EF%BC%88Elvis%EF%BC%89"><span class="nav-text">猫王操作符（Elvis）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%9B%B8%E7%AD%89%E6%80%A7"><span class="nav-text">相等性</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#in%E5%92%8C-in%E6%93%8D%E4%BD%9C%E7%AC%A6"><span class="nav-text">in和!in操作符</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%B4%A2%E5%BC%95%E6%93%8D%E4%BD%9C%E7%AC%A6"><span class="nav-text">索引操作符</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%93%8D%E4%BD%9C%E7%AC%A6%E9%87%8D%E5%86%99"><span class="nav-text">操作符重写</span></a></li></ol></li></ol>
+
+    </div>
+</div>
+        </div>
+    
+</div>
+
+
+
+                
+
+            </div>
+
+            
+
+        </div>
+
+        <div class="main-content-footer">
+            <footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
+    <div class="info-container py-3 text-center">
+        
+        <div class="text-center">
+            &copy;
+            
+              <span>2022</span>
+              -
+            
+            2024&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">The Redefine Team</a>
+        </div>
+        
+            <script data-swup-reload-script src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <div class="relative text-center lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-right">
+                
+                    <span id="busuanzi_container_site_uv" class="lg:!block">
+                        <span class="text-sm">VISITOR COUNT</span>
+                        <span id="busuanzi_value_site_uv"></span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" class="lg:!block">
+                        <span class="text-sm">TOTAL PAGE VIEWS</span>
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
+            <span class="lg:block text-sm">POWERED BY <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="relative top-[2px] inline-block align-baseline" version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" class="text-base" href="https://hexo.io">Hexo</a></span>
+            <span class="text-sm lg:block">THEME&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.4.4</a></span>
+        </div>
+        
+        
+            <div>
+                Blog up for <span class="odometer" id="runtime_days" ></span> days <span class="odometer" id="runtime_hours"></span> hrs <span class="odometer" id="runtime_minutes"></span> Min <span class="odometer" id="runtime_seconds"></span> Sec
+            </div>
+        
+        
+            <script data-swup-reload-script>
+                try {
+                    function odometer_init() {
+                    const elements = document.querySelectorAll('.odometer');
+                    elements.forEach(el => {
+                        new Odometer({
+                            el,
+                            format: '( ddd).dd',
+                            duration: 200
+                        });
+                    });
+                    }
+                    odometer_init();
+                } catch (error) {}
+            </script>
+        
+        
+        
+    </div>  
+</footer>
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="article-tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="right-bottom-tools page-aside-toggle">
+                <i class="fa-regular fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+            <li class="go-comment">
+                <i class="fa-regular fa-comments"></i>
+            </li>
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-side-tools-container">
+        <div class="side-tools-container">
+    <ul class="hidden-tools-list">
+        <li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
+            <i class="fa-regular fa-magnifying-glass-plus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
+            <i class="fa-regular fa-magnifying-glass-minus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-expand-width flex justify-center items-center">
+            <i class="fa-regular fa-expand"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
+            <i class="fa-regular fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+
+        <li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
+            <i class="fa-regular fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="visible-tools-list">
+        <li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
+            <i class="fa-regular fa-cog fa-spin"></i>
+        </li>
+        
+            <li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
+                <i class="arrow-up fas fa-arrow-up"></i>
+                <span class="percent"></span>
+            </li>
+        
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="image-viewer-container">
+    <img src="">
+</div>
+
+
+    
+
+</main>
+
+
+    
+<script src="/js/libs/Swup.min.js"></script>
+
+<script src="/js/libs/SwupSlideTheme.min.js"></script>
+
+<script src="/js/libs/SwupScriptsPlugin.min.js"></script>
+
+<script src="/js/libs/SwupProgressPlugin.min.js"></script>
+
+<script src="/js/libs/SwupScrollPlugin.min.js"></script>
+
+<script>
+    const swup = new Swup({
+        plugins: [
+            new SwupScriptsPlugin({
+                optin: true,
+            }),
+            new SwupProgressPlugin(),
+            new SwupScrollPlugin({
+                offset: 80,
+            }),
+            new SwupSlideTheme({
+                mainElement: ".main-content-body",
+            }),
+        ],
+        containers: ["#swup"],
+    });
+
+    swup.hooks.on("page:view", () => {
+        Global.refresh();
+    });
+
+    // if (document.readyState === "complete") {
+    //
+    // } else {
+    //     document.addEventListener("DOMContentLoaded", () => init());
+    // }
+</script>
+
+
+
+
+
+
+<script src="/js/utils.js" type="module"></script>
+
+<script src="/js/main.js" type="module"></script>
+
+<script src="/js/layouts/navbarShrink.js" type="module"></script>
+
+<script src="/js/tools/scrollTopBottom.js" type="module"></script>
+
+<script src="/js/tools/lightDarkSwitch.js" type="module"></script>
+
+<script src="/js/layouts/categoryList.js" type="module"></script>
+
+
+
+
+
+    
+<script src="/js/tools/codeBlock.js"></script>
+
+
+
+
+    
+<script src="/js/layouts/lazyload.js"></script>
+
+
+
+
+    
+<script src="/js/tools/runtime.js"></script>
+
+    
+<script src="/js/libs/odometer.min.js"></script>
+
+    
+<link rel="stylesheet" href="/assets/odometer-theme-minimal.css">
+
+
+
+
+  
+<script src="/js/libs/Typed.min.js"></script>
+
+  
+<script src="/js/plugins/typed.js"></script>
+
+
+
+
+
+
+
+<div class="post-scripts" data-swup-reload-script>
+    
+        
+<script src="/js/libs/anime.min.js"></script>
+
+        
+<script src="/js/tools/tocToggle.js" type="module"></script>
+
+<script src="/js/layouts/toc.js" type="module"></script>
+
+<script src="/js/plugins/tabs.js" type="module"></script>
+
+    
+</div>
+
+
+</body>
+</html>
